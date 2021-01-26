@@ -13,6 +13,10 @@
 		0093E34425BFA37A000D70FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0093E34325BFA37A000D70FD /* Assets.xcassets */; };
 		0093E34725BFA37A000D70FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0093E34625BFA37A000D70FD /* Preview Assets.xcassets */; };
 		0093E34A25BFA37A000D70FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0093E34825BFA37A000D70FD /* LaunchScreen.storyboard */; };
+		0093E35525BFAA99000D70FD /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0093E35425BFAA99000D70FD /* Item.swift */; };
+		0093E35925BFAC14000D70FD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0093E35825BFAC14000D70FD /* CardView.swift */; };
+		0093E35C25BFAC21000D70FD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0093E35B25BFAC21000D70FD /* Home.swift */; };
+		0093E35F25BFB1BB000D70FD /* CustomSearchNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0093E35E25BFB1BB000D70FD /* CustomSearchNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0093E34625BFA37A000D70FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0093E34925BFA37A000D70FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0093E34B25BFA37A000D70FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0093E35425BFAA99000D70FD /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		0093E35825BFAC14000D70FD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0093E35B25BFAC21000D70FD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0093E35E25BFB1BB000D70FD /* CustomSearchNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		0093E33C25BFA377000D70FD /* NavgationSearchBar */ = {
 			isa = PBXGroup;
 			children = (
+				0093E35325BFA3A5000D70FD /* View */,
+				0093E35225BFA390000D70FD /* Model */,
 				0093E33D25BFA377000D70FD /* AppDelegate.swift */,
 				0093E33F25BFA377000D70FD /* SceneDelegate.swift */,
 				0093E34125BFA377000D70FD /* ContentView.swift */,
@@ -73,6 +83,24 @@
 				0093E34625BFA37A000D70FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0093E35225BFA390000D70FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0093E35425BFAA99000D70FD /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0093E35325BFA3A5000D70FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0093E35825BFAC14000D70FD /* CardView.swift */,
+				0093E35B25BFAC21000D70FD /* Home.swift */,
+				0093E35E25BFB1BB000D70FD /* CustomSearchNavigationView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0093E35525BFAA99000D70FD /* Item.swift in Sources */,
 				0093E33E25BFA377000D70FD /* AppDelegate.swift in Sources */,
+				0093E35F25BFB1BB000D70FD /* CustomSearchNavigationView.swift in Sources */,
 				0093E34025BFA377000D70FD /* SceneDelegate.swift in Sources */,
 				0093E34225BFA377000D70FD /* ContentView.swift in Sources */,
+				0093E35C25BFAC21000D70FD /* Home.swift in Sources */,
+				0093E35925BFAC14000D70FD /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
